@@ -1,0 +1,49 @@
+@import 'https://unpkg.com/chota@latest';
+
+
+Dashbord{
+    background-color: #fbfbfb;
+    height: 100vh;
+}
+.Mainb{
+    display: flex;
+    height: 100vh;
+}
+.App{
+    height: 100vh;
+}
+.container {
+    margin: 10px;
+    max-width: var(--grid-maxWidth);
+    padding: 10px 10 10 10;
+    width: 450px;
+    height: 100vh;
+}
+.section{
+    margin: 30px;
+    background-color: #fff;
+    width: 470px;
+    height: max-content;
+    display: flex;
+    border: #000 1px;
+    border-radius: 10px;
+}
+
+.sections{
+    display: flex;
+    justify-content: space-between;
+}
+.table{
+    width: 900px;
+}
+
+.button.dark, .button.error, .button.primary, .button.secondary, .button.success, [type=submit] {
+    background-color: #000;
+    background-color: #0669ff;
+    color: #fff;
+    z-index: 1;
+}
+  .smaller-columns .react-kanban-column {
+    width: 50px !important;
+}
+ 
